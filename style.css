@@ -394,6 +394,7 @@ footer{
 
     .content-1-img p,
     .content-2-img p{
+        font-size:14px;
         width: 60%;
     }
 
