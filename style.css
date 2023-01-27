@@ -126,6 +126,7 @@ header li{
 .content-1{
     display: flex;
     flex-direction: row-reverse;
+    padding: 0px 40px 0px 0px;
 }
 
 .content-1-title{
@@ -165,8 +166,8 @@ header li{
     align-items: center;
     color: white;
     background-color: rgba(230, 180, 31, 0.7);
-    width: 350px;
-    height: 120px;
+    width: 50%;
+    height: 30%;
     position: absolute;
     left: -20px;
     bottom: -20px;
@@ -175,6 +176,7 @@ header li{
 .content-2{
     display: flex;
     margin-top: 225px;
+    padding: 0px 0px 0px 40px;
 }
 
 .content-2-title{
@@ -212,8 +214,8 @@ header li{
     align-items: center;
     background-color: rgba(150, 81, 77, 0.7);
     color: white;
-    width: 350px;
-    height: 120px;
+    width: 50%;
+    height: 30%;
     position: absolute;
     right: -20px;
     bottom: -20px;
@@ -337,7 +339,7 @@ footer{
     }
 
     #news{
-        padding: 80px 8px 80px 0px;
+        padding: 50px 8px 50px 0px;
     }
 
     .news-title p{
@@ -360,12 +362,12 @@ footer{
     /* コンテンツ */
 
     .content-1{
-        padding: 0px 20px 200px 40px;
+        padding: 0px 20px 100px 40px;
     }
 
     .content-2{
         margin: auto;
-        padding: 0px 40px 200px 20px;
+        padding: 0px 40px 90px 20px;
     }
 
     .content-1-title h1,
@@ -392,7 +394,13 @@ footer{
 
     .content-1-img p,
     .content-2-img p{
-        width: 400px;
+        width: 60%;
+    }
+
+    /* マップ */
+
+    #map{
+        margin-top: 0px;
     }
 
     /* フッター */
